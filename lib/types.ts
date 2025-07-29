@@ -1,8 +1,8 @@
 import type React from "react"
 
-// Re-exporting the Message type from 'ai/react' as ChatMessage for clarity in this project.
+// Re-exporting the CoreMessage type from 'ai' as ChatMessage for clarity in this project.
 // This is the primary data structure for a single message in the chat.
-export type { Message as ChatMessage } from "ai/react"
+export type { CoreMessage as ChatMessage } from "ai"
 
 // Defines the structure for a "skill" card displayed on the initial screen.
 export type Skill = {
